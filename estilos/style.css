@@ -7,6 +7,9 @@
 
 header {
     background: url(/imagens/menu.jpg);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
 }
@@ -69,23 +72,45 @@ li > .escrito:hover {
 }
 
 #servicos {
-    height: 730px;
-    overflow: hidden;
-    margin: 150px 550px;
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    justify-content: center;
+
+    margin: auto;
+    padding: 150px 0px;
 }
 
 .servicos { 
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
+    gap: 20px;
+    max-width: auto;
+}
+
+#servicos > h1 {
+    font-size: 1.2em;
+    padding-bottom: 5px;
+}
+
+#servicos > h2 {
+    font-size: 3em;
+    padding-bottom: 25px;
 }
 
 .quadro {
     padding: 10px;
-    
+    max-width: 230px;
+}
+
+.quadro > a {
+    text-decoration: none;
+    padding: 10px 0px;
 }
 
 .quadro > a > h3 {
     font-size: 1.5em;
+    padding: 10px 0px;
 }
+

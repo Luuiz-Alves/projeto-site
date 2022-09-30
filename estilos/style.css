@@ -93,7 +93,6 @@ li > .escrito:hover {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 30px;
 }
 
 #servicos > h1 {
@@ -107,8 +106,7 @@ li > .escrito:hover {
 }
 
 .quadro {
-    padding: 10px;
-    width: 25%;
+    width: 26%;
 }
 
 .quadro > a {
@@ -171,14 +169,78 @@ li > .escrito:hover {
     
 }
 
+#oi > h1 {
+    font-size: 1.2em;
+}
+
+#oi > h2 {
+    font-size: 3em;
+}
+
 #equipe {
     display: flex;
     justify-content: center;
+    flex-direction: row;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 25px;
 }
 
 #equipe > aside > p {
      
     text-align: center;
+}
+
+.equipe-texto {
+    padding: 25px 10px;
+}
+
+.equipe-texto > h3 {
+    padding: 5px;
+}
+
+.equipe-texto > h5 {
+    padding-bottom: 10px;
+    color: darkgray;
+}
+
+/* Começo do parallax */
+
+#parallax2 {
+    background-image: url(/imagens/parallax2.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    width: 100vw;
+    height: 540px;
+
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#parallax2 > h1 {
+    padding-top: 185px;
+    font-size: 1.2em;
+    color: white;
+}
+
+#parallax2 > h2 {
+    font-size: 3em;
+    padding-bottom: 15px;
+    color: white;
+}
+
+#parallax2 > button {
+    padding: 13px;
+    background-color: rgb(36, 35, 35);
+    border: 1px solid rgb(36, 35, 35);
+    color: white;
+}
+
+#parallax2 > button:hover {
+    cursor: pointer;
+    color: rgb(218, 165, 32);
+    border: 1px solid white;
 }

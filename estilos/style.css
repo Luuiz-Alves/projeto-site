@@ -94,7 +94,6 @@ li > .escrito:hover {
     justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
-    max-width: 900px;
 }
 
 #servicos > h1 {
@@ -109,7 +108,7 @@ li > .escrito:hover {
 
 .quadro {
     padding: 10px;
-    max-width: 230px;
+    width: 25%;
 }
 
 .quadro > a {

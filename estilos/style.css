@@ -90,10 +90,11 @@ li > .escrito:hover {
 
 .servicos { 
     display: flex;
+    flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 20px;
-    max-width: auto;
+    gap: 30px;
+    max-width: 900px;
 }
 
 #servicos > h1 {

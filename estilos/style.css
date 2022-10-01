@@ -15,7 +15,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
-    height: 100vh;
+    height: 100vh;  
 }
 
 menu {
@@ -24,6 +24,11 @@ menu {
     justify-content: space-around;
     background-color: black;
     padding-top: 5px;
+
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    left: 0;
 }
 
 menu > ul {
@@ -186,8 +191,8 @@ li > .escrito:hover {
 }
 
 #equipe > aside > p {
-     
     text-align: center;
+    padding-bottom: 10px;
 }
 
 .equipe-texto {
@@ -201,6 +206,21 @@ li > .escrito:hover {
 .equipe-texto > h5 {
     padding-bottom: 10px;
     color: darkgray;
+}
+
+.equipe-social-facebook {
+    background-color: #5973A8;
+    padding: 10px 10px;
+}
+
+.equipe-social-twitter {
+    background-color: #55ACEE;
+    padding: 11.9px 10px;
+}
+
+.equipe-social-instagram {
+    background-color: #FF0068;
+    padding: 10px;
 }
 
 /* Começo do parallax */

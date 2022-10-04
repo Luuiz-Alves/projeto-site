@@ -49,6 +49,7 @@ li > .escrito:hover {
     border-bottom: 3px solid white;
 }
 
+/*
 #texto {
     width: 94vw;
     height: 85vh;
@@ -60,9 +61,17 @@ li > .escrito:hover {
     left: 50%;
     transform: translate(-50%, -10%);
     overflow: hidden;
+}*/
+
+#texto {
+    display: inline-block;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
 }
 
 #texto > p {
+    padding-top: 320px;
     font-size: 2.5em;
     margin: 0 270px;
     padding-bottom: 5px;
@@ -90,7 +99,8 @@ li > .escrito:hover {
     justify-content: center;
 
     margin: auto;
-    padding: 150px 0px;
+    padding: 100px 0px;
+    max-width: 900px;
 }
 
 .servicos { 
@@ -98,6 +108,9 @@ li > .escrito:hover {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+    gap: 25px;
+
+    padding: 50px;
 }
 
 #servicos > h1 {
@@ -111,7 +124,7 @@ li > .escrito:hover {
 }
 
 .quadro {
-    width: 26%;
+    max-width: 500px;
 }
 
 .quadro > a {
@@ -122,6 +135,10 @@ li > .escrito:hover {
 .quadro > a > h3 {
     font-size: 1.5em;
     padding: 10px 0px;
+}
+
+.quadro > p {
+    max-width: 250px;
 }
 
 /* Começo do parallax */
@@ -168,21 +185,21 @@ li > .escrito:hover {
 
 /* Inicio da equipe */
 
-#oi {
+#equipe {
     text-align: center;
     padding: 130px;
     
 }
 
-#oi > h1 {
+#equipe > h1 {
     font-size: 1.2em;
 }
 
-#oi > h2 {
+#equipe > h2 {
     font-size: 3em;
 }
 
-#equipe {
+#equipe-div {
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -190,7 +207,7 @@ li > .escrito:hover {
     gap: 25px;
 }
 
-#equipe > aside > p {
+#equipe-div > aside > p {
     text-align: center;
     padding-bottom: 10px;
 }
@@ -209,16 +226,31 @@ li > .escrito:hover {
 }
 
 .equipe-social-facebook {
-    background-color: #5973A8;
+    background-color: darkgray;
     padding: 10px 10px;
 }
 
 .equipe-social-twitter {
-    background-color: #55ACEE;
+    background-color: darkgray;
     padding: 11.9px 10px;
 }
 
 .equipe-social-instagram {
+    background-color: darkgray;
+    padding: 10px;
+}
+
+.equipe-social-facebook:hover {
+    background-color: #5973A8;
+    padding: 10px 10px;
+}
+
+.equipe-social-twitter:hover {
+    background-color: #55ACEE;
+    padding: 11.9px 10px;
+}
+
+.equipe-social-instagram:hover {
     background-color: #FF0068;
     padding: 10px;
 }
@@ -377,3 +409,118 @@ li > .escrito:hover {
     color: white;
     border: 1px solid #FF0068;
 }
+
+/* Começo do Fale Conosco*/
+
+.dados {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    background-color: white;
+
+    width: 50%;
+    height: 600px;
+}
+
+.dados > h1 {
+    font-size: 1.2em;
+    padding-bottom: 5px;
+}
+
+.dados > h2 {
+    font-size: 3em;
+    padding-bottom: 25px;
+}
+
+.dados > p {
+    padding: 5px;
+}
+
+#fale-conosco-dados-p {
+    padding-bottom: 40px;
+}
+
+#fale-conosco-dados-p2 {
+    padding-bottom: 20px;
+}
+
+/* Formulario/Fale Conosco */
+
+.formulario {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+    width: 50%;
+    height: 600px;
+    background-color: #F5F5F5;
+}
+
+.formulario > h1 {
+    font-size: 1.2em;
+    padding-bottom: 5px;
+}
+
+.formulario > h2 {
+    font-size: 3em;
+    padding-bottom: 25px;
+}
+
+.formulario-fale-conosco {
+    padding: 10px;
+    width: 25%;
+}
+
+.formulario-caixa-de-texto {
+    width: 53.3%;
+    padding: 10px;
+}
+
+.formulario-botao {
+    padding: 10px;
+    width: 55.6%;
+
+}
+
+footer {
+    background: #121416;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+footer > ul {
+    display: inline-flex;
+    gap: 10px;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+
+    padding: 35px 0px 15px 0px;
+}
+
+footer > p {
+    color: #969696;
+    padding-top: 5px;
+    padding-bottom: 35px;
+}
+
+footer > ul > li > a:hover {
+    color: #16C60C;
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: white;
+}
+
+footer > p > a:hover {
+    color: #16C60C;
+}
+

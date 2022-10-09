@@ -9,6 +9,25 @@ body {
     overflow-x: hidden;
 }
 
+.botao-whatsapp {
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    right: 25px;
+    bottom: 40px;
+    background-color: #25d366;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 40px;
+    box-shadow: 1px 1px 2px black;
+    z-index: 100;
+}
+
+.icone-whatsapp {
+    margin-top: 11px;
+}
+
 header {
     background: url(/imagens/menu.jpg);
     background-position: center top;
@@ -192,7 +211,6 @@ li > .escrito:hover {
 #equipe {
     text-align: center;
     padding: 130px;
-    
 }
 
 #equipe > h1 {

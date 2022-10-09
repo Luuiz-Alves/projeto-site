@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+/*  
+    Typical Device Breakpoints
+
+    Pequenas telas: até 600px
+    Celular: de 600px até 768px
+    Tablet: 768px até 992px
+    Desktop: 992px até 1200px
+    Grandes telas: acima de 1200px
+*/
+
+@media screen and (max-width: 992px) {
+    #texto {
+        display: inline-block;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+
+    #texto > p {
+        font-size: 1em;
+    }
+
+    /* Equipe */
+
+    #equipe > h1 {
+        font-size: 1em;
+    }
+    
+    #equipe > h2 {
+        font-size: 1.5em;
+    }
+
+    /* Preços */
+
+    .precos > h1 {
+        font-size: 1em;
+    }
+    
+    .precos > h2 {
+        font-size: 1.5em;
+        padding: 15px 0px 30px 0px;
+    }
+
+    /* Fita */
+
+    .fita {
+        font-size: 1em;
+        padding: 15px;
+    }
+
+    .fita-botao {
+        margin-left: 0px;
+    }
+
+    /* Dados */
+
+    .dados {
+        float: none;
+        width: 100%;
+    }
+
+    /* Formulario */
+
+    .formulario {
+        float: none;
+        width: 100%;
+    }
+
+    .formulario-fale-conosco {
+        padding: 10px;
+        width: 75%;
+        margin: 5px;
+    }
+    
+    .formulario-caixa-de-texto {
+        padding: 10px;
+        width: 75.5%;
+    }
+    
+    .formulario-botao {
+        padding: 10px;
+        width: 80%;
+    }
+}

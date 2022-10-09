@@ -16,6 +16,8 @@ header {
     background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;  
+
+    box-shadow: 3px 3px 8px 1px rgba(0, 0, 0, 0.473);
 }
 
 menu {
@@ -71,7 +73,7 @@ li > .escrito:hover {
 }
 
 #texto > p {
-    padding-top: 320px;
+    padding-top: 350px;
     font-size: 2.5em;
     margin: 0 270px;
     padding-bottom: 5px;
@@ -156,6 +158,8 @@ li > .escrito:hover {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+
+    box-shadow: 3px 3px 8px 1px rgba(0, 0, 0, 0.473);
 }
 
 #parallax > h1 {
@@ -270,6 +274,8 @@ li > .escrito:hover {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+
+    box-shadow: 3px 3px 8px 1px rgba(0, 0, 0, 0.473);
 }
 
 #parallax2 > h1 {

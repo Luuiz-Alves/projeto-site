@@ -19,27 +19,73 @@
     }
 
     #texto > p {
-        font-size: 1em;
+        padding-top: 250px;
+        font-size: 2em;
+        margin: 0 45px;
+        padding-bottom: 10px;
+    }
+
+    /* Serviços*/
+
+    #servicos > h1 {
+        font-size: 1.2em;
+        padding-bottom: 5px;
+    }
+    
+    #servicos > h2 {
+        font-size: 1.6em;
+        padding-bottom: 25px;
     }
 
     /* Equipe */
 
     #equipe > h1 {
-        font-size: 1em;
+        font-size: 1.2em;
     }
     
     #equipe > h2 {
-        font-size: 1.5em;
+        font-size: 1.6em;
+        margin: 0px;
+    }
+
+    /* Parallax */
+
+    #parallax > h1 {
+        padding-top: 185px;
+        font-size: 1.2em;
+        margin: auto;
+        color: white;
+    }
+    
+    #parallax > h2 {
+        font-size: 1.6em;
+        padding-bottom: 15px;
+        margin: auto;
+        color: white;
+    }
+
+    #parallax2 > h1 {
+        padding-top: 185px;
+        font-size: 1.2em;
+        margin: auto;
+        color: white;
+    }
+    
+    #parallax2 > h2 {
+        font-size: 1.6em;
+        padding-bottom: 15px;
+        margin: auto;
+        color: white;
     }
 
     /* Preços */
 
     .precos > h1 {
-        font-size: 1em;
+        font-size: 1.2em;
     }
     
     .precos > h2 {
-        font-size: 1.5em;
+        font-size: 1.6em;
         padding: 15px 0px 30px 0px;
     }
 
@@ -61,11 +107,21 @@
         width: 100%;
     }
 
+    .dados > h2 {
+        font-size: 1.6em;
+        padding-bottom: 25px;
+    }
+
     /* Formulario */
 
     .formulario {
         float: none;
         width: 100%;
+    }
+
+    .formulario > h2 {
+        font-size: 1.6em;
+        padding-bottom: 25px;
     }
 
     .formulario-fale-conosco {

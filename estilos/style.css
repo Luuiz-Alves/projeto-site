@@ -44,9 +44,8 @@ menu {
     align-items: center;
     justify-content: space-around;
     background-color: black;
-    padding-top: 5px;
-
     position: fixed;
+
     width: 100vw;
     top: 0;
     left: 0;

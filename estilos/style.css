@@ -63,7 +63,7 @@ nav {
 }
   
 main {
-    background: url("/imagens/menu.jpg") no-repeat center center;
+    background: url("./imagens/menu.jpg") no-repeat center center;
     background-size: cover;
     padding-top: 87px;
     height: 91vh;

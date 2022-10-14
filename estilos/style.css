@@ -201,7 +201,7 @@ main > button:hover {
 /* Começo do parallax */
 
 #parallax {
-    background-image: url(/imagens/parallax.jpg);
+    background-image: url(./imagens/parallax.jpg);
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
@@ -316,7 +316,7 @@ main > button:hover {
 /* Começo do parallax */
 
 #parallax2 {
-    background-image: url(/imagens/parallax2.jpg);
+    background-image: url(./imagens/parallax2.jpg);
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;

@@ -11,7 +11,7 @@
     --cor2: #FFC234;
     --cor3: #058ED9;
     --cor4: #16C60C;
-    --cor5: #063d1e;
+    --cor5: #242323;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', cursive;
@@ -86,15 +86,18 @@ main > p {
 
 main > button {
     padding: 13px;
-    background-color: rgb(36, 35, 35);
-    border: 1px solid rgb(36, 35, 35);
+    background-color: var(--cor5);
+    border: 1px solid var(--cor5);
     color: var(--cor0);
+    font-weight: bolder;
+    
 }
 
 main > button:hover {
     cursor: pointer;
-    color: var(--cor2);
-    border: 1px solid var(--cor0);
+    color: var(--cor1);
+    background-color: var(--cor0);
+    border: 1px solid var(--cor1);
 }
   
 .nav-list {
@@ -186,7 +189,12 @@ main > button:hover {
 
 .quadro > a {
     text-decoration: none;
+    color: black;
     padding: 10px 0px;
+}
+
+.quadro > a:hover {
+    color: var(--cor2);
 }
 
 .quadro > a > h3 {
@@ -231,15 +239,17 @@ main > button:hover {
 
 #parallax > button {
     padding: 13px;
-    background-color: rgb(36, 35, 35);
-    border: 1px solid rgb(36, 35, 35);
+    background-color: var(--cor5);
+    border: 1px solid var(--cor5);
     color: var(--cor0);
+    font-weight: bolder;
 }
 
 #parallax > button:hover {
     cursor: pointer;
-    color: var(--cor2);
-    border: 1px solid white;
+    color: var(--cor1);
+    background-color: var(--cor0);
+    border: 1px solid var(--cor1);
 }
 
 /* Inicio da equipe */
@@ -346,15 +356,17 @@ main > button:hover {
 
 #parallax2 > button {
     padding: 13px;
-    background-color: rgb(36, 35, 35);
-    border: 1px solid rgb(36, 35, 35);
+    background-color: var(--cor5);
+    border: 1px solid var(--cor5);
     color: var(--cor0);
+    font-weight: bolder;
 }
 
 #parallax2 > button:hover {
     cursor: pointer;
-    color: var(--cor2);
-    border: 1px solid var(--cor0);
+    color: var(--cor1);
+    background-color: var(--cor0);
+    border: 1px solid var(--cor1);
 }
 
 /* Começo dos preços */
@@ -460,14 +472,14 @@ main > button:hover {
     padding: 15px;
     margin-left: 50px;
     cursor: pointer;
-    font-weight: bold;
+    font-weight: bolder;
     border: 1px solid transparent;
 }
 
 .fita-botao:hover {
-    background-color: #FF0068;
+    background-color: var(--cor4);
     color: white;
-    border: 1px solid #FF0068;
+    border: 1px solid var(--cor0);
 }
 
 /* Começo do Fale Conosco*/
@@ -549,7 +561,20 @@ main > button:hover {
     padding: 10px;
     width: 55.6%;
 
+    background-color: var(--cor5);
+    border: 1px solid var(--cor5);
+    color: var(--cor0);
+    font-weight: bolder;
 }
+
+.formulario-botao:hover {
+    cursor: pointer;
+    color: var(--cor1);
+    background-color: var(--cor0);
+    border: 1px solid var(--cor1);
+}
+
+/* Começo do Footer*/
 
 footer {
     background: #121416;
@@ -575,6 +600,7 @@ footer > p {
     color: #969696;
     padding-top: 5px;
     padding-bottom: 35px;
+    letter-spacing: 2px;
 }
 
 footer > ul > li > a {

@@ -60,6 +60,8 @@ nav {
     height: 10%;
     width: 100%;
     position: fixed;
+
+    overflow-x: hidden;
 }
   
 main {
@@ -67,6 +69,8 @@ main {
     background-size: cover;
     padding-top: 87px;
     height: 91vh;
+
+    overflow-x: hidden;
 
     display: flex;
     flex-direction: column;

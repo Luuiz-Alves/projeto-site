@@ -170,7 +170,7 @@ main > button:hover {
     flex-wrap: wrap;
     gap: 25px;
 
-    padding: 50px;
+    padding: 29px;
 }
 
 #servicos > h1 {
@@ -185,6 +185,12 @@ main > button:hover {
 
 .quadro {
     max-width: 500px;
+    background-color: #EEF0F3;
+    padding: 5px;
+    border: 2px solid #969696;
+    border-radius: 15px;
+
+    box-shadow: 2px 2px 6px 1px rgba(0, 0, 0, 0.473);
 }
 
 .quadro > a {
